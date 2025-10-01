@@ -90,13 +90,13 @@ export const UserManagementWidget = () => {
                       }}
                       className="bg-[#3E3E3E] rounded-xl hover:bg-[#4F4F4F]"
                     >
-                      <img src="src/assets/edit.svg" alt="edit" className="w-8 h-8" />
+                      <img src="public/assets/edit.svg" alt="edit" className="w-8 h-8" />
                     </button>
                     <button
                       onClick={() => handleDelete(user.id)}
                       className="bg-[#3E3E3E] rounded-xl hover:bg-[#4F4F4F]"
                     >
-                      <img src="src/assets/delete.svg" alt="delete" className="w-8 h-8" />
+                      <img src="public/assets/delete.svg" alt="delete" className="w-8 h-8" />
                     </button>
                   </td>
                 </tr>
