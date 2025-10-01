@@ -69,8 +69,8 @@ export const UserManagementWidget = () => {
           </thead>
           <tbody>
             {paginatedUsers.length === 0 ? (
-              <tr>
-                <td colSpan={6} className="py-4 text-center text-gray-500">
+              <tr className='bg-[#414141]'>
+                <td colSpan={6} className="py-3 px-4 border text-white border-[#414141] text-center">
                   Нет пользователей
                 </td>
               </tr>
