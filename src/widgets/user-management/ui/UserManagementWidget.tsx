@@ -79,8 +79,8 @@ export const UserManagementWidget = () => {
             ) : (
               paginatedUsers.map((user) => (
                 <tr key={user.id} className="border-t bg-[#373737] hover:bg-gray-700">
-                  <td className="py-3 px-4 border text-white border-[#414141] text-center">{user.name}</td>
                   <td className="py-3 px-4 border text-white border-[#414141] text-center text-sm">{user.id.slice(0, 8)}</td>
+                  <td className="py-3 px-4 border text-white border-[#414141] text-center">{user.name}</td>
                   <td className="py-3 px-4 border text-white border-[#414141] text-center">{user.email}</td>
                   <td className="py-3 px-4 border text-white border-[#414141] text-center">{user.phone}</td>
                   <td className="py-3 px-4 border text-white border-[#414141] text-center">{user.role}</td>
